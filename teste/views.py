@@ -15,7 +15,7 @@ class Teste(APIView):
     def get(self, request):
 
         res = {
-            'a': 'b'
+            'a': 'qqq'
         }
         
         return Response(res)
